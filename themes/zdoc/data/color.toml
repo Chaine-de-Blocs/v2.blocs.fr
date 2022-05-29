@@ -1,0 +1,14 @@
+dark_active_font_color = "#FBE016"
+dark_link_color = "#0070FC"
+dark_link_hover_color = "#1F84FF"
+dark_nav_logo_color = "#FCFCFA"
+dark_nav_menu_color = "#FCFCFA"
+dark_nav_icon_color = "#ccc"
+
+
+light_active_font_color = "#0070FC"
+light_link_color = "#0070FC"
+light_link_hover_color = "#1F84FF"
+light_nav_logo_color = "#000F26"
+light_nav_menu_color = "#000F26"
+light_nav_icon_color = "#00183D"

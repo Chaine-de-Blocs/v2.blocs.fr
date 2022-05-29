@@ -1,0 +1,23 @@
+[toc-label]
+other = "Sommaire de l'article"
+
+[tooltip-written]
+other = "Ecrit le"
+
+[tooltip-modified]
+other = "Modifié le"
+
+[tooltip-reading-time]
+other = "Temps de lecture"
+
+[summary-dateformat]
+other = "2 Jan 2006"
+
+[reading-time]
+other = "min. de lecture"
+
+[single-writtenBy]
+other = "ECRIT PAR"
+
+[edit-this-page]
+other = "MODIFIER CETTE PAGE"
