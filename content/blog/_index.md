@@ -28,9 +28,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - Zzo blog
+      - Blog de Blocs.fr
     subtitle:
-      - 
+      - Edité par Jonathan Serra
     titleColor: 
     titleShadow: true
     titleFontSize: 44
