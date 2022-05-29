@@ -1,4 +1,4 @@
-baseURL = "https://blocs.fr"
+baseURL = "https://chaine-de-blocs.github.io/v2.blocs.fr"
 languageCode = "fr-fr"
 title = "Blocs.fr - Dev. Fullstack - Jonathan Serra CTO @ Brightweb"
 theme = "zdoc"
@@ -10,7 +10,7 @@ hasCJKLanguage = false # Set `true` for Chinese/Japanese/Korean languages.
 copyright = "©{year} blocs.fr" # copyright symbol: $copy; current year: {year}
 timeout = 10000
 enableEmoji = true
-paginate = 7 # Number of items per page in paginated lists.
+paginate = 4 # Number of items per page in paginated lists.
 rssLimit = 100
 
 [markup]
