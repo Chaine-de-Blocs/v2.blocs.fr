@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zdoc theme",
-  "short_name": "Hugo Zdoc theme",
+  "name": "Blocs",
+  "short_name": "Blocs",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Hugo simple documentation theme",
-  "start_url": "https://themes.gohugo.io/theme/hugo-theme-zdoc/",
+  "description": "Blocs",
+  "start_url": "https://blocs.fr",
   "icons": [
     {
       "src": "favicon/android-icon-36x36.png",
