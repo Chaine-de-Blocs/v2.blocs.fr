@@ -30,7 +30,7 @@ taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 github = "https://github.com/Chaine-de-Blocs"
 
 # comment
-enableComment = false
+enableComment = true
 disqus_shortname = ""
 commento = false
 
@@ -73,5 +73,5 @@ commento = false
 # Isso: https://posativ.org/isso/
 [isso]
   enable = true
-  scriptSrc = "" # "https://isso.blocs.fr/js/embed.min.js"
+  scriptSrc = "https://isso.blocs.fr/js/embed.min.js" # "https://isso.blocs.fr/js/embed.min.js"
   dataAttrs = "data-isso-reply-notifications='true' data-isso='https://isso.blocs.fr/'" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
