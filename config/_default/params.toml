@@ -3,7 +3,7 @@ logoText = "Blocs.fr"
 logoType = "short" # long, short
 description = "Développement fullstack focus sur les solutions scallable. Les sujets sont le développement d&#x27;applications serveurs, frontend et devops. Spécialisé en développement blockchain sur Ethereum et Bitcoin."
 
-themeOptions = ["light", "dark"]
+themeOptions = ["dark", "light"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
