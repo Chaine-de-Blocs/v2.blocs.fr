@@ -1,13 +1,3 @@
----
-title: Le développement Blockchain, par où commencer ?
-layout: post
-description: La cryptomonnaie, la technologie Blockchain, ça fait beaucoup parler. Plus rarement pour l'innovation technique que la technologie apporte que pour son actualité sur les marchés. Les deux aspects ne sont pas inintéressants, d'ailleurs l'intérêt financier pour la technologie permet aussi de susciter un vif intérêt pour la faire évoluer. Et la technologie Blockchain évolue vite.
-image: /assets/img/thumbnail/devblockchain.png
-imageAlt: La cryptomonnaie, la technologie Blockchain, ça fait beaucoup parler. Plus rarement pour l'innovation technique que la technologie apporte que pour son actualité sur les marchés. Les deux aspects ne sont pas inintéressants, d'ailleurs l'intérêt financier pour la technologie permet aussi de susciter un vif intérêt pour la faire évoluer. Et la technologie Blockchain évolue vite.
-js: blog
-categories: freelance,dev,blockchain
-css: blog,blog-highlight
----
 +++
 author = "Jonathan Serra"
 title = "Le développement Blockchain, par où commencer ?"
@@ -19,45 +9,10 @@ tags = [
 image = "images/thumbnails/devblockchain.png"
 +++
 
-
-<Summary
-  items={[
-    {
-      title: "L'intérêt de l'innovation Blockchain"
-    },
-    {
-      title: "Du Web à la Blockchain, le frontend",
-      subItems: [
-        {
-          title: "Web3JS, un premier pas",
-        },
-        {
-          title: "Par où commencer ?",
-        }
-      ]
-    }, {
-      title: "L'arrière scène de la Blockchain, le backend",
-      subItems: [
-        {
-          title: "Choix 1 : Le développement de protocole",
-        },
-        {
-          title: "Choix 2 : Le développement de contrats intelligents",
-        },
-        {
-          title: "Choix 3 : Le développement de services connectés à un réseau Blockchain",
-        }
-      ]
-    }, {
-      title: "Conclusion",
-    },
-  ]}
->
-  <p>La cryptomonnaie, la technologie Blockchain, ça fait beaucoup parler. Plus rarement pour l'innovation technique que la technologie apporte que pour son actualité sur les marchés. Les deux aspects ne sont pas inintéressants, d'ailleurs l'intérêt financier pour la technologie permet aussi de susciter un vif intérêt pour la faire évoluer. Et la technologie Blockchain évolue vite.</p>
-  <p>C'est aujourd'hui une manne financière qui s'auto-finance. Avec toujours une demande d'innovation croissante allant de la DeFi (Decentralized Finance) aux NFTs (jetons non fongibles) qui ont maintenant le vent en poupe.</p>
-  <p><b>Vous avez un intérêt pour la technique, alors c'est le moment le plus opportun pour se lancer.</b> Nous allons voir dans cet article tous les éléments importants pour s'initier au développement Blockchain. C'est parti ?</p>
-  <p><i>Afin de faciliter la lecture je vais utiliser le terme "Blockchain" pour évoquer toute l'innovation autour de la technologie Blockchain.</i></p>
-</Summary>
+La cryptomonnaie, la technologie Blockchain, ça fait beaucoup parler. Plus rarement pour l'innovation technique que la technologie apporte que pour son actualité sur les marchés. Les deux aspects ne sont pas inintéressants, d'ailleurs l'intérêt financier pour la technologie permet aussi de susciter un vif intérêt pour la faire évoluer. Et la technologie Blockchain évolue vite.
+C'est aujourd'hui une manne financière qui s'auto-finance. Avec toujours une demande d'innovation croissante allant de la DeFi (Decentralized Finance) aux NFTs (jetons non fongibles) qui ont maintenant le vent en poupe.
+Vous avez un intérêt pour la technique, alors c'est le moment le plus opportun pour se lancer. Nous allons voir dans cet article tous les éléments importants pour s'initier au développement Blockchain. C'est parti ?
+Afin de faciliter la lecture je vais utiliser le terme "Blockchain" pour évoquer toute l'innovation autour de la technologie Blockchain.
 
 ## L'intérêt de l'innovation Blockchain
 
@@ -116,7 +71,7 @@ ce qui se passe dans une blockchain et l'affichage sur un site ou une applicatio
 
 Voilà à quoi ressemble du code avec Web3JS :
 
-```js
+{{< highlight javascript >}}
 // Connecte Web3 avec un provider par défaut.
 // Un provider est un logiciel qui permet de faire l'interfaçage entre le Web3 et
 // le réseau Blockchain (mainnet, testnet, autre...).
@@ -155,7 +110,7 @@ web3.eth.sendTransaction({
   .then(function(receipt){
     /* La transaction est maintenant inscrite dans la blockchain */
   });
-```
+{{< /highlight >}}
 
 > Binance Smart Chain (BSC) est un réseau lancé par la fameuse
 plateforme Binance. Ce dernier étant repris de Ethereum peut fonctionner avec Web3JS.
@@ -277,7 +232,7 @@ des informations sur Ethereum.
 
 Je vous montre un exemple de code commenté sur Golang avec `go-web3` :
 
-```go
+{{< highlight go >}}
 package main
 
 import (
@@ -317,7 +272,7 @@ func main() {
     data := txn.MarshalRLP()
     hash, _ := c.Eth().SendRawTransaction(data)
 }
-```
+{{< /highlight >}}
 
 #### Par où commencer ?
 

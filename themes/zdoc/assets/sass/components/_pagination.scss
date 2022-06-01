@@ -78,6 +78,10 @@
   }
 
   &__right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
     @include on-event {
       
     }

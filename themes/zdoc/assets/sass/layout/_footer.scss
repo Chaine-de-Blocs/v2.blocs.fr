@@ -42,8 +42,8 @@
     width: 100%;
     margin: 2rem 0;
 
-    @include flexbox();
-    @include align-items(flex-start);
-    @include flex-direction(column);
+    @include justify-content(center);
+    @include align-items(center);
+    @include flex-direction(row);
   }
 }

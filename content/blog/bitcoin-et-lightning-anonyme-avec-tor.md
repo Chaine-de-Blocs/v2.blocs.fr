@@ -1,36 +1,15 @@
----
-title: Servir Bitcoin et Lightning Network en étant anonyme avec Tor
-layout: post
-description: Vous avez un nœud Bitcoin et Lightning Network, vous participez à la décentralisation du réseau, bravo ! Cependant il réside un point noir, en particulier si votre noeud est localisé chez vous ou votre bureau... En connaissant votre adresse IP, publiée par le noeud, il est possible de vous localiser. On remédie à cela avec Tor.
-image: /assets/img/thumbnail/tor_bitcoind_lnd.png
-imageAlt: Installer un noeud Bitcoin-Comment fonctionne bitcoin-Installer Bitcoin
-categories: debian,bitcoind,bitcoin-cli,tor
-js: clipboard
-css: blog,blog-highlight,clipboard
----
++++
+author = "Jonathan Serra"
+title = "Servir Bitcoin et Lightning Network en étant anonyme avec Tor"
+date = "2020-01-01"
+description = "Vous avez un nœud Bitcoin et Lightning Network, vous participez à la décentralisation du réseau, bravo ! Cependant il réside un point noir, en particulier si votre noeud est localisé chez vous ou votre bureau... En connaissant votre adresse IP, publiée par le noeud, il est possible de vous localiser. On remédie à cela avec Tor."
+tags = [
+  "bitcoin", "debian", "bitcoin-cli", "tor"
+]
+image = "images/thumbnails/tor_bitcoind_lnd.png"
++++
 
-<Summary
-  items={[
-    {
-      title: "Qu'est ce que Tor ? Pourquoi Tor ?",
-    }, {
-      title: 'Installer et activer Tor',
-    }, {
-      title: 'Configurer Tor',
-    }, {
-      title: "Connecter votre Bitcoin à Tor",
-    }, {
-      title: 'Connecter votre Lightning à Tor',
-      subItems: [
-        {
-          title: 'Gérer les droits avec Tor',
-        },
-      ],
-    },
-  ]}
->
-  <p>Vous avez un nœud Bitcoin et Lightning Network, vous participez à la décentralisation du réseau, bravo ! Cependant il réside un point noir, en particulier si votre noeud est localisé chez vous ou votre bureau... En connaissant votre adresse IP, publiée par le nœud, il est possible de vous localiser. C'est sensible dans le cas où vous y mettez pour l'équivalent de milliers d'euros en bitcoins, une personne mal intentionnée pourrait vous pirater voire vous cambrioler. Heureusement, grâce à Tor vous allez pouvoir cacher tout cela en un temps record</p>
-</Summary>
+Vous avez un nœud Bitcoin et Lightning Network, vous participez à la décentralisation du réseau, bravo ! Cependant il réside un point noir, en particulier si votre noeud est localisé chez vous ou votre bureau... En connaissant votre adresse IP, publiée par le nœud, il est possible de vous localiser. C'est sensible dans le cas où vous y mettez pour l'équivalent de milliers d'euros en bitcoins, une personne mal intentionnée pourrait vous pirater voire vous cambrioler. Heureusement, grâce à Tor vous allez pouvoir cacher tout cela en un temps record
 
 _Ce guide est basé sur une installation avec `bitcoind` et `lnd` sur un Debian 9 Stretch  Lite, sur n'importe quelle version Debian 9 ce guide sera fonctionnel._
 
@@ -56,7 +35,7 @@ On a installé Tor, nous allons le configurer en prévision des usages avec `lnd
 
 La configuration de Tor se trouve dans le chemin `/etc/tor/torrc` où `torrc` est un fichier de configuration. Connectez-vous en `root` pour le modifier avec `su root`, puis tapez `vim /etc/tor/torrc` ou `nano /etc/tor/torrc` si vous préférez `nano` pour éditer un fichier. Je vous montre les configurations à décommenter (en retirant le # au début de chaque ligne concernée).
 
-```
+{{< highlight shell >}}
 ControlPort 9051
 
 CookieAuthentication 1
@@ -64,43 +43,35 @@ CookieAuthentication 1
 HiddenServiceDir /var/lib/tor/bitcoin/ # Emplacement du dossier de votre routage
 HiddenServicePort 8333 127.0.0.1:8333 # Routage bitcoin (8333 est le port mainnet de Bitcoin)
 HiddenServicePort 8332 [::1]:8332 # Routage bitcoin ipv6
-```
+{{< /highlight >}}
 
 Modifications faites, tapez `systemctl restart tor` pour redémarrer Tor afin qu'il prenne en compte vos modifications.
 
 Et enfin pour voir si Tor est fonctionnel, observez le avec la commande `systemctl status tor@default`, vous devriez avec quelque chose comme suit :
 
-<Terminal
-  title="Voir le status de Tor"
-  defaultPrompt="root@raspberry:~ $"
-  lines={[
-    {
-      cmd: "systemctl status tor",
-      stdout: [
-        "● tor@default.service - Anonymizing overlay network for TCP",
-        "Loaded: loaded (/lib/systemd/system/tor@default.service; static; vendor preset: enabled)",
-        "Active: active (running) since Wed 2020-01-01 10:09:09 UTC; 7h ago",
-        "Process: 1805 ExecReload=/bin/kill -HUP ${MAINPID} (code=exited, status=0/SUCCESS)",
-        "Process: 2259 ExecStartPre=/usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0 --verify-config (code=exited, status=0/SUCCESS",
-        "Process: 2257 ExecStartPre=/usr/bin/install -Z -m 02755 -o debian-tor -g debian-tor -d /var/run/tor (code=exited, status=0/SUCCESS)",
-        "Main PID: 2262 (tor)",
-        "CGroup: /system.slice/system-tor.slice/tor@default.service",
-        "&nbsp;&nbsp;&nbsp;└─2262 /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0",
-        "",
-        "Jan 01 10:09:05 raspberrypi tor[2259]: Jan 01 10:09:05.113 [notice] Read configuration file /usr/share/tor/tor-service-defaults-torrc.",
-        "Jan 01 10:09:05 raspberrypi tor[2259]: Jan 01 10:09:05.113 [notice] Read configuration file /etc/tor/torrc.",
-        "Jan 01 10:09:05 raspberrypi tor[2259]: Configuration was valid",
-        "Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Tor 0.2.9.16 (git-9ef571339967c1e5) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.1.0j and Zlib 1.2.8.",
-        "Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warn",
-        "Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Read configuration file /usr/share/tor/tor-service-defaults-torrc.",
-        "Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Read configuration file /etc/tor/torrc.",
-        "Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.995 [notice] Opening Socks listener on 127.0.0.1:9050",
-        "Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.995 [notice] Opening Control listener on 127.0.0.1:9051",
-        "Jan 01 10:09:09 raspberrypi systemd[1]: Started Anonymizing overlay network for TCP.",
-      ]
-    }
-  ]}
-/>
+{{< highlight shell >}}
+root@raspberry:~ $ systemctl status tor
+● tor@default.service - Anonymizing overlay network for TCP
+Loaded: loaded (/lib/systemd/system/tor@default.service; static; vendor preset: enabled)
+Active: active (running) since Wed 2020-01-01 10:09:09 UTC; 7h ago
+Process: 1805 ExecReload=/bin/kill -HUP ${MAINPID} (code=exited, status=0/SUCCESS)
+Process: 2259 ExecStartPre=/usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0 --verify-config (code=exited, status=0/SUCCESS
+Process: 2257 ExecStartPre=/usr/bin/install -Z -m 02755 -o debian-tor -g debian-tor -d /var/run/tor (code=exited, status=0/SUCCESS)
+Main PID: 2262 (tor)
+CGroup: /system.slice/system-tor.slice/tor@default.service
+    └─2262 /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0
+
+Jan 01 10:09:05 raspberrypi tor[2259]: Jan 01 10:09:05.113 [notice] Read configuration file /usr/share/tor/tor-service-defaults-torrc.
+Jan 01 10:09:05 raspberrypi tor[2259]: Jan 01 10:09:05.113 [notice] Read configuration file /etc/tor/torrc.
+Jan 01 10:09:05 raspberrypi tor[2259]: Configuration was valid
+Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Tor 0.2.9.16 (git-9ef571339967c1e5) running on Linux with Libevent 2.0.21-stable, OpenSSL 1.1.0j and Zlib 1.2.8.
+Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warn
+Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Read configuration file /usr/share/tor/tor-service-defaults-torrc.
+Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.979 [notice] Read configuration file /etc/tor/torrc.
+Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.995 [notice] Opening Socks listener on 127.0.0.1:9050
+Jan 01 10:09:05 raspberrypi tor[2262]: Jan 01 10:09:05.995 [notice] Opening Control listener on 127.0.0.1:9051
+Jan 01 10:09:09 raspberrypi systemd[1]: Started Anonymizing overlay network for TCP.
+{{< /highlight >}}
 
 Si votre service Tor n'est pas actif, vous trouverez des informations en tapant `journalctl -u tor@default`.
 
@@ -110,18 +81,10 @@ Cette configuration fonctionne avec `bitcoind` en version `0.19.0.1`, dans mon n
 
 Avant de commencer vous allez devoir chercher votre nom de domaine Tor en tapant ce qui suit :
 
-<Terminal
-  title="Voir le status de Tor"
-  defaultPrompt="bitcoin@raspberry:~ $"
-  lines={[
-    {
-      cmd: "cat /var/lib/tor/bitcoin/hostname",
-      stdout: [
-        "blocsiq5epwbye47.onion",
-      ],
-    },
-  ]}
-/>
+{{< highlight shell >}}
+bitcoin@raspberry:~ $ cat /var/lib/tor/bitcoin/hostname
+blocsiq5epwbye47.onion
+{{< /highlight >}}
 
 `blocsiq5epwbye47.onion` est mon nom de domaine (hostname).
 
@@ -179,43 +142,35 @@ Maintenant ajoutez l'utilisateur `bitcoin` au groupe `debian-tor` en tapant `use
 
 A partir d'ici votre nœud est connecté au réseau en passant par Tor ! Il est toujours intéressant d'observer si tout est bien cadré par Tor afin de ne pas avoir de fuite d'IP. Tapez la commande du terminal ci-dessous :
 
-<Terminal
-  title="Observer les ports d'écoute"
-  defaultPrompt="root@raspberry:~ $"
-  lines={[
-    {
-      cmd: "netstat -tulpn",
-      stdout: [
-        "(Not all processes could be identified, non-owned process info",
-        "will not be shown, you would have to be root to see it all.)",
-        "Active Internet connections (only servers)",
-        "Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name",
-        "tcp        0      0 127.0.0.1:9735          0.0.0.0:*               LISTEN      2043/lnd",
-        "tcp        0      0 127.0.0.1:28332         0.0.0.0:*               LISTEN      653/bitcoind",
-        "tcp        0      0 127.0.0.1:8332          0.0.0.0:*               LISTEN      653/bitcoind",
-        "tcp        0      0 127.0.0.1:8333          0.0.0.0:*               LISTEN      653/bitcoind",
-        "tcp        0      0 127.0.0.1:28333         0.0.0.0:*               LISTEN      653/bitcoind",
-        "tcp        0      0 127.0.0.1:8080          0.0.0.0:*               LISTEN      2043/lnd",
-        "tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -",
-        "tcp        0      0 127.0.0.1:10009         0.0.0.0:*               LISTEN      2043/lnd",
-        "tcp        0      0 127.0.0.1:9050          0.0.0.0:*               LISTEN      -",
-        "tcp        0      0 127.0.0.1:9051          0.0.0.0:*               LISTEN      -",
-        "tcp6       0      0 ::1:8332                :::*                    LISTEN      653/bitcoind",
-        "tcp6       0      0 :::80                   :::*                    LISTEN      -",
-        "tcp6       0      0 :::22                   :::*                    LISTEN      -",
-        "udp        0      0 0.0.0.0:48138           0.0.0.0:*                           -",
-        "udp        0      0 0.0.0.0:68              0.0.0.0:*                           -",
-        "udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -",
-        "udp6       0      0 :::45175                :::*                                -",
-        "udp6       0      0 :::5353                 :::*                                -",
-      ],
-    },
-  ]}
-/>
+{{< highlight shell >}}
+root@raspberry:~ $ netstat -tulpn
+(Not all processes could be identified, non-owned process info
+will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:9735          0.0.0.0:*               LISTEN      2043/lnd
+tcp        0      0 127.0.0.1:28332         0.0.0.0:*               LISTEN      653/bitcoind
+tcp        0      0 127.0.0.1:8332          0.0.0.0:*               LISTEN      653/bitcoind
+tcp        0      0 127.0.0.1:8333          0.0.0.0:*               LISTEN      653/bitcoind
+tcp        0      0 127.0.0.1:28333         0.0.0.0:*               LISTEN      653/bitcoind
+tcp        0      0 127.0.0.1:8080          0.0.0.0:*               LISTEN      2043/lnd
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:10009         0.0.0.0:*               LISTEN      2043/lnd
+tcp        0      0 127.0.0.1:9050          0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:9051          0.0.0.0:*               LISTEN      -
+tcp6       0      0 ::1:8332                :::*                    LISTEN      653/bitcoind
+tcp6       0      0 :::80                   :::*                    LISTEN      -
+tcp6       0      0 :::22                   :::*                    LISTEN      -
+udp        0      0 0.0.0.0:48138           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           -
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -
+udp6       0      0 :::45175                :::*                                -
+udp6       0      0 :::5353                 :::*                                -
+{{< /highlight >}}
 
 Nous, ce qui nous intéresse ce sont `bitcoind` et `lnd`. On va passer tous les ports d'écoute en revue et comprendre si oui ou non ils sont "torrifiés" :
 - `lnd 9735` : C'est le port de LND, "torrifiée" avec le clé privée de votre Tor ;
-- `bitcoind 28332` : C'est le port <Link href="https://zeromq.org/">ZMQ</Link> de Bitcoin, il sert à la configuration et n'est pas distribué ;
+- `bitcoind 28332` : C'est le port [ZMQ](https://zeromq.org/) de Bitcoin, il sert à la configuration et n'est pas distribué ;
 - `bitcoind 8333` : C'est le port de `bitcoind` qui est caché via Tor (HiddenServicePort dans `/etc/tor/torrc`) ;
 - `bitcoind 8332` : C'est le port JSON-RPC de `bitcoind`, nul besoin de le cacher avec Tor si vous ne le distribuez pas ;
 - `bitcoind 8332 IPV6` : C'est le port ipv6 de `bitcoind` qui est caché via Tor (HiddenServicePort dans `/etc/tor/torrc`) ;
@@ -252,7 +207,7 @@ Enfin pour voir si `lnd` a bien considéré vos modifications, tapez `lncli geti
 
 Intéressez vous à la partie d'en bas, `"uris"`, qui est une liste des adresses distribuées dans le réseau. Ici je n'ai qu'une adresse qui est un .onion, voir ce qui suit le "@". La partie de gauche est la clé publique de mon lnd.
 
-> .onion est un nom de domaine exclusif au routage en oignon comme le fait Tor. Comme vous pouvez l'imaginer, c'est réellement une référence à la plante. Cela vient du routage qui recouvre le message de plusieurs couches, comme un oignon où le coeur est enrobé de plusieurs couches. <Link href="https://www.youtube.com/watch?v=zjqw1VnuKLs">MrBidouille en a fait une parfaite vidéo introductive</Link>.
+> .onion est un nom de domaine exclusif au routage en oignon comme le fait Tor. Comme vous pouvez l'imaginer, c'est réellement une référence à la plante. Cela vient du routage qui recouvre le message de plusieurs couches, comme un oignon où le coeur est enrobé de plusieurs couches. [MrBidouille](https://www.youtube.com/watch?v=zjqw1VnuKLs).
 
 Vérifications faites, vous êtes cachés, bravo !
 
