@@ -1,5 +1,12 @@
 <div class="mid">
   <main class="main">
+    <script type="module">
+      import start from "{{ .Site.BaseURL }}/assets/banner_anim/rustshad.js";
+      start();
+    </script>
+
+    <canvas id="rustshad"></canvas>
+
     {{ partial "main/landing/home-landing.html" . }}
   </main>
   {{ partial "main/landing/home-sections.html" . }}
