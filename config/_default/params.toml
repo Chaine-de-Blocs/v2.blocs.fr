@@ -1,7 +1,7 @@
 logo = false
 logoText = "Blocs.fr"
 logoType = "short" # long, short
-description = "Développement fullstack focus sur les solutions scallable. Les sujets sont le développement d&#x27;applications serveurs, frontend et devops. Spécialisé en développement blockchain sur Ethereum et Bitcoin."
+description = "Jonathan Serra CTO @ Brightweb - Solutions digitales et infrastructures logicielles scallables pour startups ambitieuses et en forte croissante. Les sujets sont le développement d'applications serveurs, frontend, backend et devops. Spécialisé en développement blockchain sur Bitcoin avant tout et parfois Ethereum et autres."
 
 themeOptions = ["dark", "light"]
 
