@@ -1,6 +1,6 @@
 ---
 title: Blocs.fr
-description: Dev. Fullstack - Jonathan Serra CTO @ Brightweb - Développement fullstack scallable pour startups ambitieuses ou en forte croissante. Les sujets sont le développement d'applications serveurs, frontend et devops. Spécialisé en développement blockchain sur Ethereum et Bitcoin.
+description: Jonathan Serra CTO @ Brightweb - Solutions digitales et infrastructures logicielles scallables pour startups ambitieuses et en forte croissante. Les sujets sont le développement d'applications serveurs, frontend, backend et devops. Spécialisé en développement blockchain sur Bitcoin avant tout et parfois Ethereum et autres.
 date: 2020-01-26T04:15:05+09:00
 image: images/blocs_banner.png
 draft: false
@@ -11,7 +11,7 @@ landing:
   title:
     - Blocs.fr
   text:
-    - CTO & Dev. Fullstack
+    - CTO @ Brightweb
   buttons:
     - link: blog
       text: Blog

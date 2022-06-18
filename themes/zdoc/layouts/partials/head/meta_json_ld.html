@@ -29,12 +29,18 @@
     },
     {{ end -}}
     "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": {{ .Site.BaseURL }}
+      "@type": "Person",
+      "@id": {{ .Site.BaseURL }},
+      "name": "Jonathan Serra",
+      "image": "https://blocs.fr/images/jonathan_blocs_serra.png"
     },
     "publisher": {
-      "@type": "Organization",
-      "name": {{ .Site.Title  }},
+      "@type": "Person",
+      "name": "Jonathan Serra",
+      "jobTitle": "CTO",
+      "alumniOf": "UTT",
+      "gender": "male",
+      "nationality": "French",
       {{ with $.Param "icon" -}}
       "logo" : {
         "@type": "ImageObject",
@@ -42,6 +48,12 @@
       },
       {{ end -}}
       "url": {{ .Site.BaseURL }}
-    }
+    },
+    "sameAs": [
+      "https://github.com/Chaine-de-Blocs",
+      "https://www.twitch.tv/codequietw",
+      "https://www.youtube.com/c/Cha%C3%AEnedeBlocs",
+      "https://twitter.com/_blocs"
+    ]
   }
 </script>
