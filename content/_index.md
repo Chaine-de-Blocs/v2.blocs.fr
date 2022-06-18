@@ -2,8 +2,8 @@
 title: Blocs.fr
 description: Dev. Fullstack - Jonathan Serra CTO @ Brightweb - Développement fullstack scallable pour startups ambitieuses ou en forte croissante. Les sujets sont le développement d'applications serveurs, frontend et devops. Spécialisé en développement blockchain sur Ethereum et Bitcoin.
 date: 2020-01-26T04:15:05+09:00
+image: images/blocs_banner.png
 draft: false
-# updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
   logo:
     logoType: long
