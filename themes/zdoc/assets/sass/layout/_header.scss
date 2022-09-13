@@ -42,14 +42,12 @@
     font-size: 3rem;
     line-height: 3rem;
     overflow-wrap: break-word;
-
-    @include themify($themes) {
-      color: themed("title-color");
-    }
+    color: #fff;
   }
 
   &__subtitle {
     line-height: 1.2;
+    color: #fff;
   }
 
   &__align-left {
