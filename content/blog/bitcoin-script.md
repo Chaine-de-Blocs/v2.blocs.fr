@@ -1,13 +1,12 @@
 +++
 author = "Jonathan Serra"
 title = "Bitcoin SCRIPT en vidéo"
-date = "2022-09-04"
+date = "2022-10-30"
 description = "Lorsque nous payons avec Bitcoin nous signons un contrat. Plus spécifiquement nous produisons une signature cryptographique pour un programme qui fait office de contrat : c'est ce qui a été nommé Contrat Intelligent par Nick Szabo en 1997, 11 ans avant que le concept Bitcoin émerge."
 tags = [
   "bitcoin", "script", "op code", "checklocktimeverify"
 ]
-image = "images/thumbnails/tor_bitcoind_lnd.png"
-draft = true
+image = "images/thumbnails/bitcoin_script.jpg"
 +++
 
 Lorsque nous payons avec Bitcoin nous signons un contrat. Plus spécifiquement nous produisons une signature cryptographique pour un programme qui fait office de contrat : c'est ce qui a été nommé ["Contrat Intelligent"](https://nakamotoinstitute.org/formalizing-securing-relationships/) par [Nick Szabo](http://unenumerated.blogspot.com/) en 1997, 11 ans avant que le concept Bitcoin émerge.
