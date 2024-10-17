@@ -41,5 +41,5 @@ footer:
   contents: 
     align: left
     applySinglePageCss: false
-    markdown: © _Blocs.fr_ 2022
+    markdown: © _Blocs.fr_ 2024
 ---
