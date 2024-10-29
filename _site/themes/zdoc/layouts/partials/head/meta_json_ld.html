@@ -1,0 +1,59 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    {{ if .IsPage -}}
+    "@type": {{ if or (eq .Section "blog") (eq .Section "post") }}"BlogPosting"{{ else }}"WebPage"{{ end }},
+    "headline": {{ .Title }},
+    "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+    "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
+    "url" : {{ .Permalink }},
+    "description": {{ with (.Description | default (replaceRE "\n" " " (.Summary | truncate 170))) }}{{ . }}{{ end }},
+    {{ with .Params.tags -}}
+    "keywords": {{ . }},
+    {{ end -}}
+    {{ else -}}
+    "@type": "WebPage",
+    "url" : {{ .Permalink }},
+    "name": {{ .Title }},
+    {{ with $.Param "description" -}}
+    "description": {{ . }},
+    {{ end -}}
+    {{ end -}}
+    {{ with $.Param "image" -}}
+    "image" : {{ . | absURL }},
+    {{ end -}}
+    {{ with $.Param "author" -}}
+    "author": {
+      "@type": "Person",
+      "name": {{ . }}
+    },
+    {{ end -}}
+    "mainEntityOfPage": {
+      "@type": "Person",
+      "@id": {{ .Site.BaseURL }},
+      "name": "Jonathan Serra",
+      "image": "https://blocs.fr/images/jonathan_blocs_serra.png"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Jonathan Serra",
+      "jobTitle": "CTO",
+      "alumniOf": "UTT",
+      "gender": "male",
+      "nationality": "French",
+      {{ with $.Param "icon" -}}
+      "logo" : {
+        "@type": "ImageObject",
+        "url": {{ . | absURL }}
+      },
+      {{ end -}}
+      "url": {{ .Site.BaseURL }}
+    },
+    "sameAs": [
+      "https://github.com/Chaine-de-Blocs",
+      "https://www.twitch.tv/codequietw",
+      "https://www.youtube.com/c/Cha%C3%AEnedeBlocs",
+      "https://twitter.com/_blocs"
+    ]
+  }
+</script>

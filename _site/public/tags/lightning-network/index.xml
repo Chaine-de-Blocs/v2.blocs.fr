@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightning Network on Blocs.fr</title>
+    <link>http://localhost:1313/tags/lightning-network/</link>
+    <description>Recent content in Lightning Network on Blocs.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy;{year} blocs.fr</copyright>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/tags/lightning-network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>1 - Mastering the Lightning Network - Comprendre Bitcoin et le Lightning Network</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-1/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-1/</guid>
+        <description>&lt;h2 id=&#34;lecture-du-chapitre-1-de-mastering-the-lightning-network&#34;&gt;Lecture du chapitre 1 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/yLF7iD6pS98?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Comprendre Bitcoin et le Lightning Network - Mastering the Lightning Network&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Bienvenue dans Mastering the Lightning Network !&lt;/p&gt;
+&lt;p&gt;Le Lightning Network (souvent abrégé en LN) change la façon dont les gens échangent de la valeur en ligne, et c&amp;rsquo;est l&amp;rsquo;une des avancées les plus excitantes de l&amp;rsquo;histoire de Bitcoin. Le Lightning Network en est encore à ses balbutiements. Le Lightning Network est un protocole permettant d&amp;rsquo;utiliser Bitcoin de manière intelligente. Il s&amp;rsquo;agit d&amp;rsquo;une technologie de deuxième couche sur Bitcoin.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>10 - Mastering the Lightning Network - Les messages sur Lightning Network (TLV, e2e encryption)</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-10/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-10/</guid>
+        <description>&lt;h2 id=&#34;lecture-des-chapitre-13-et-14-de-mastering-the-lightning-network&#34;&gt;Lecture des chapitre 13 et 14 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ryDZQB_5IlA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Les messages sur Lightning Network (TLV, e2e encryption) - Mastering the Lightning Network (Bitcoin)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;wire-protocol&#34;&gt;Wire Protocol&lt;/h3&gt;
+&lt;p&gt;Dans ce chapitre, nous plongeons dans le protocole filaire du Lightning Network et couvrons également tous les différents leviers d&amp;rsquo;extensibilité qui ont été intégrés au protocole. À la fin de ce chapitre, un lecteur ambitieux devrait être capable d&amp;rsquo;écrire son propre analyseur de protocole filaire pour le Lightning Network. En plus d&amp;rsquo;être capable d&amp;rsquo;écrire un analyseur de protocole filaire personnalisé, un lecteur de ce chapitre acquerra une compréhension approfondie des divers mécanismes de mise à niveau qui ont été intégrés au protocole.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>11 - Mastering the Lightning Network - Informations Paiement et vie privée en vidéo</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-11/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-11/</guid>
+        <description>&lt;h2 id=&#34;lecture-des-chapitre-15-et-16-de-mastering-the-lightning-network&#34;&gt;Lecture des chapitre 15 et 16 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/gdKrStc_KlQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Informations Paiement et vie privée - Mastering the Lightning Network (Bitcoin)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;requête-de-paiement&#34;&gt;Requête de paiement&lt;/h3&gt;
+&lt;p&gt;Dans ce chapitre, nous examinerons les demandes de paiement Lightning, ou, comme on les appelle plus communément, les factures Lightning.&lt;/p&gt;
+&lt;h3 id=&#34;vie-privée-avec-ln&#34;&gt;Vie privée avec LN&lt;/h3&gt;
+&lt;p&gt;Dans ce chapitre, nous examinons certains des problèmes les plus importants liés à la sécurité et à la confidentialité du Lightning Network. Tout d&amp;rsquo;abord, nous examinerons la confidentialité, ce que cela signifie, comment l&amp;rsquo;évaluer et certaines choses que vous pouvez faire pour protéger votre propre confidentialité lorsque vous utilisez le Lightning Network. Ensuite, nous explorerons certaines attaques courantes et techniques d&amp;rsquo;atténuation.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>12 - Mastering the Lightning Network - Chapitre final en vidéo</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-12/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-12/</guid>
+        <description>&lt;h2 id=&#34;chapitre-final-de-mastering-the-lightning-network-en-vidéo&#34;&gt;Chapitre final de Mastering the Lightning Network en vidéo&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/E0mmm4uh_8Y?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Installer un nœud Bitcoin + LN - Mastering the Lightning Network (Conclusion)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;En quelques années seulement, le Lightning Network est passé d&amp;rsquo;un livre blanc à un réseau mondial en pleine croissance. En tant que deuxième couche de Bitcoin, il a tenu sa promesse de paiements rapides, peu coûteux et privés. De plus, il a déclenché un tsunami d&amp;rsquo;innovation, car il libère les développeurs des contraintes de consensus qui existent dans le développement de Bitcoin.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>2 - Mastering the Lightning Network - Paiement avec Bitcoin et Lightning Network</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-2/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-2/</guid>
+        <description>&lt;h2 id=&#34;lecture-du-chapitre-2-de-mastering-the-lightning-network&#34;&gt;Lecture du chapitre 2 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/UHNFvDqpKuM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Paiement avec Bitcoin et Lightning Network - Mastering the Lightning Network&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Dans ce chapitre, nous commencerons là où la plupart des gens commencent lorsqu&amp;rsquo;ils rencontrent le Lightning Network pour la première fois : choisir un logiciel pour participer à l&amp;rsquo;économie LN. Nous examinerons les choix de deux utilisateurs qui représentent un cas d&amp;rsquo;utilisation courant pour le Lightning Network et apprendrons par l&amp;rsquo;exemple. Alice, cliente d&amp;rsquo;un café, utilisera un portefeuille Lightning sur son appareil mobile pour acheter du café au Bob&amp;rsquo;s Cafe. Bob, un commerçant, utilisera un nœud Lightning et un portefeuille pour exécuter un système de point de vente dans son café, afin qu&amp;rsquo;il puisse accepter les paiements sur le Lightning Network.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>3 - Mastering the Lightning Network - Transaction d&#39;engagement (commitment tx)</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-3/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-3/</guid>
+        <description>&lt;h2 id=&#34;lecture-du-chapitre-3-de-mastering-the-lightning-network&#34;&gt;Lecture du chapitre 3 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/L0-U-hrjQdY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Transaction d&#39;engagement (commitment tx) - Mastering the Lightning Network (Bitcoin)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Maintenant que nous avons suivi Alice alors qu&amp;rsquo;elle installait un portefeuille Lightning et achetait un café à Bob, nous allons regarder sous le capot et déballer les différents composants du Lightning Network impliqués dans ce processus. Ce chapitre donnera une vue d&amp;rsquo;ensemble de haut niveau et n&amp;rsquo;abordera pas tous les détails techniques. Le but est plutôt de vous aider à prendre conscience des concepts et briques de base les plus importants du Lightning Network.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>4 - Mastering the Lightning Network - Créer un réseau de nœud Lightning Network</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-4/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-4/</guid>
+        <description>&lt;h2 id=&#34;lecture-du-chapitre-4-de-mastering-the-lightning-network&#34;&gt;Lecture du chapitre 4 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/W2agBbOZIbI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Créer un réseau de nœud Lightning Network - Mastering the Lightning Network (Bitcoin)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Comme nous l&amp;rsquo;avons vu dans les chapitres précédents, un nœud Lightning est un système informatique qui participe au Lightning Network. Le Lightning Network n&amp;rsquo;est pas un produit ou une entreprise ; il s&amp;rsquo;agit d&amp;rsquo;un ensemble de normes ouvertes qui définissent une base d&amp;rsquo;interopérabilité. En tant que tel, le logiciel de nœud Lightning a été créé par diverses entreprises et groupes communautaires. La grande majorité des logiciels Lightning sont open source, ce qui signifie que le code source est ouvert et sous licence de manière à permettre la collaboration, le partage et la participation de la communauté au processus de développement. De même, les implémentations de nœuds Lightning que nous présenterons dans ce chapitre sont toutes open source et sont développées en collaboration.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>5 - Mastering the Lightning Network - Installer un serveur Bitcoin et LN</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-5/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-5/</guid>
+        <description>&lt;h2 id=&#34;lecture-du-chapitre-5-de-mastering-the-lightning-network&#34;&gt;Lecture du chapitre 5 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/DXDwRED8Z1U?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Installer un serveur Bitcoin et LN - Mastering the Lightning Network (ft. Getumbrel)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Après avoir lu jusqu&amp;rsquo;ici, vous avez probablement configuré un portefeuille Lightning. Dans ce chapitre, nous allons aller plus loin et configurer un nœud Lightning complet. En plus d&amp;rsquo;en installer un, nous apprendrons à le faire fonctionner et à l&amp;rsquo;entretenir dans le temps.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>6 - Mastering the Lightning Network - Comprendre la commitment transaction</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-6/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-6/</guid>
+        <description>&lt;h2 id=&#34;lecture-des-chapitres-6-et-7-de-mastering-the-lightning-network&#34;&gt;Lecture des chapitres 6 et 7 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8BheJvHN-gk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Comprendre la commitment transaction - Mastering the Lightning Network (Bitcoin)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Dans ce chapitre, nous allons plonger dans les canaux de paiement et voir comment ils sont construits. Nous commencerons par le nœud d&amp;rsquo;Alice ouvrant un canal vers le nœud de Bob, en nous appuyant sur les exemples présentés au début de ce livre.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>7 - Mastering the Lightning Network - Routage, secret de paiement et HTLC sur LN</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-7/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-7/</guid>
+        <description>&lt;h2 id=&#34;lecture-du-chapitre-8-de-mastering-the-lightning-network&#34;&gt;Lecture du Chapitre 8 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qjRkn-J7eBE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Routage, secret de paiement et HTLC sur LN - Mastering the Lightning Network&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Dans ce chapitre, nous verrons enfin comment les canaux de paiement peuvent être connectés pour former un réseau de canaux de paiement via un processus appelé routage. Plus précisément, nous nous intéresserons à la première partie de la couche de routage, le protocole &amp;ldquo;Atomic and trustless multihop contracts&amp;rdquo;. Ceci est mis en évidence par un aperçu dans la suite de protocoles, illustré dans Routage de paiement Atomic dans la suite de protocoles Lightning.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>9 - Mastering the Lightning Network - Onion routing, Gossip protocol et Path Finding</title>
+        <link>http://localhost:1313/blog/mastering-the-lightning-network-9/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/mastering-the-lightning-network-9/</guid>
+        <description>&lt;h2 id=&#34;lecture-des-chapitre-10-11-et-12-de-mastering-the-lightning-network&#34;&gt;Lecture des chapitre 10, 11 et 12 de Mastering the Lightning Network&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/wIZqDOvhDJE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Onion routing, Gossip protocol et Path Finding - Mastering the Lightning Network (Bitcoin)&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;routage-en-oignon&#34;&gt;Routage en oignon&lt;/h3&gt;
+&lt;p&gt;Dans ce chapitre, nous décrirons le mécanisme de routage en oignon du Lightning Network. L&amp;rsquo;invention du routage en oignon précède le Lightning Network de 25 ans ! Le routage en oignon a été inventé par des chercheurs de la marine américaine en tant que protocole de sécurité des communications. Le routage en oignon est le plus célèbre utilisé par Tor, la superposition Internet routée en oignon qui permet aux chercheurs, aux militants, aux agents de renseignement et à tout le monde d&amp;rsquo;utiliser Internet de manière privée et anonyme.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Le développement Blockchain, par où commencer ?</title>
+        <link>http://localhost:1313/blog/le-developpement-blockchain-par-ou-commencer/</link>
+        <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/le-developpement-blockchain-par-ou-commencer/</guid>
+        <description>&lt;p&gt;La cryptomonnaie, la technologie Blockchain, ça fait beaucoup parler. Plus rarement pour l&amp;rsquo;innovation technique que la technologie apporte que pour son actualité sur les marchés. Les deux aspects ne sont pas inintéressants, d&amp;rsquo;ailleurs l&amp;rsquo;intérêt financier pour la technologie permet aussi de susciter un vif intérêt pour la faire évoluer. Et la technologie Blockchain évolue vite.&lt;br /&gt;
+C&amp;rsquo;est aujourd&amp;rsquo;hui une manne financière qui s&amp;rsquo;auto-finance. Avec toujours une demande d&amp;rsquo;innovation croissante allant de la DeFi (Decentralized Finance) aux NFTs (jetons non fongibles) qui ont maintenant le vent en poupe.&lt;br /&gt;
+Vous avez un intérêt pour la technique, alors c&amp;rsquo;est le moment le plus opportun pour se lancer. Nous allons voir dans cet article tous les éléments importants pour s&amp;rsquo;initier au développement Blockchain. C&amp;rsquo;est parti ?&lt;br /&gt;
+Afin de faciliter la lecture je vais utiliser le terme &amp;ldquo;Blockchain&amp;rdquo; pour évoquer toute l&amp;rsquo;innovation autour de la technologie Blockchain.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Installer un nœud Lightning Network</title>
+        <link>http://localhost:1313/blog/installer-un-noeud-lightning-network/</link>
+        <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/installer-un-noeud-lightning-network/</guid>
+        <description>&lt;h2 id=&#34;matériels-requis&#34;&gt;Matériels requis&lt;/h2&gt;
+&lt;p&gt;Avant tout il va vous falloir du matériel puisqu&amp;rsquo;un nœud est un serveur qui fourni un service. Ne vous inquiétez pas vous n&amp;rsquo;aurez pas besoin d&amp;rsquo;un serveur coûteux, bruyant et consommateur. Vous aurez besoin d&amp;rsquo;un nano-ordinateur, c&amp;rsquo;est petit, c&amp;rsquo;est silencieux et la consommation est basse, voilà la liste :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Raspberry Pi 3&lt;/strong&gt; : &lt;a href=&#34;https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/&#34; target=&#34;_blank&#34;&gt;ce matériel&lt;/a&gt; est peu coûteux et a les capacités optimales pour avoir un nœud LN efficace. Veillez à acquérir un pack contenant le Raspberry Pi, l&amp;rsquo;alimentation secteur et une carte SSD. Ces éléments sont compris dans le pack officiel ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un disque dur SSD de 500go ou plus&lt;/strong&gt; : vous devrez télécharger la blockchain de Bitcoin qui fait plus de 200 giga octects. Je recommande un disque dur SSD (électronique) à préférer au disque dur mécanique qui a une moins bonne tolérance à la panne. J&amp;rsquo;ai personnellement un disque dur mécanique ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un écran port HDMI&lt;/strong&gt; : ce sera nécessaire pour faire les premières configurations ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un clavier USB&lt;/strong&gt; : ce sera également nécessaire pour faire les premières configurations ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un câble RJ45&lt;/strong&gt; : ce sera pour connecter votre Raspberry Pi à Internet. Il est possible d&amp;rsquo;avoir une connexion wifi en y connectant une antenne ou un dongle. Cependant je déconseille cette approche pour des raisons de sécurité et également pour éviter les contraintes d&amp;rsquo;installation de drivers pas toujours disponibles sur les distributions Linux ;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installer-raspian-stretch-lite&#34;&gt;Installer Raspian Stretch Lite&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Cette étape est optionnelle mais recommandée.&lt;/em&gt;&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Configurer son nœud Bitcoin Lightning Network</title>
+        <link>http://localhost:1313/blog/configurer-un-noeud-lightning-network/</link>
+        <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/configurer-un-noeud-lightning-network/</guid>
+        <description>&lt;p&gt;&lt;em&gt;Notez que tout ce qui va suivre devra se faire avec l&amp;rsquo;utilisateur administrateur. Pour s&amp;rsquo;y connecter tapez une fois &lt;code&gt;su root&lt;/code&gt; puis tapez son mot de passe.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fixer-ladresse-ip-locale-du-nœud&#34;&gt;Fixer l&amp;rsquo;adresse IP locale du nœud&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Ce qui suit s&amp;rsquo;applique qu&amp;rsquo;aux connexions réseau filaire et non Wifi&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Votre nœud possède une adresse IP locale afin d&amp;rsquo;être accéssible dans votre réseau, c&amp;rsquo;est d&amp;rsquo;ailleurs grâce à cette dernière que vous pouvez y accéder avec SSH. Cependant il est fort probable que son adressage se fasse dynamiquement par défaut, par conséquent l&amp;rsquo;adresse de votre Raspberry pourrait changer. Il est préférable d&amp;rsquo;éviter cette inconvenance alors on va forcer une adresse IP statique.&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

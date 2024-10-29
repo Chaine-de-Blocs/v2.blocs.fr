@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on Blocs.fr</title>
+    <link>http://localhost:1313/tags/debian/</link>
+    <description>Recent content in Debian on Blocs.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy;{year} blocs.fr</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Servir Bitcoin et Lightning Network en étant anonyme avec Tor</title>
+        <link>http://localhost:1313/blog/bitcoin-et-lightning-anonyme-avec-tor/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/bitcoin-et-lightning-anonyme-avec-tor/</guid>
+        <description>&lt;p&gt;Vous avez un nœud Bitcoin et Lightning Network, vous participez à la décentralisation du réseau, bravo ! Cependant il réside un point noir, en particulier si votre noeud est localisé chez vous ou votre bureau&amp;hellip; En connaissant votre adresse IP, publiée par le nœud, il est possible de vous localiser. C&amp;rsquo;est sensible dans le cas où vous y mettez pour l&amp;rsquo;équivalent de milliers d&amp;rsquo;euros en bitcoins, une personne mal intentionnée pourrait vous pirater voire vous cambrioler. Heureusement, grâce à Tor vous allez pouvoir cacher tout cela en un temps record&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Installer un nœud Lightning Network</title>
+        <link>http://localhost:1313/blog/installer-un-noeud-lightning-network/</link>
+        <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/installer-un-noeud-lightning-network/</guid>
+        <description>&lt;h2 id=&#34;matériels-requis&#34;&gt;Matériels requis&lt;/h2&gt;
+&lt;p&gt;Avant tout il va vous falloir du matériel puisqu&amp;rsquo;un nœud est un serveur qui fourni un service. Ne vous inquiétez pas vous n&amp;rsquo;aurez pas besoin d&amp;rsquo;un serveur coûteux, bruyant et consommateur. Vous aurez besoin d&amp;rsquo;un nano-ordinateur, c&amp;rsquo;est petit, c&amp;rsquo;est silencieux et la consommation est basse, voilà la liste :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Raspberry Pi 3&lt;/strong&gt; : &lt;a href=&#34;https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/&#34; target=&#34;_blank&#34;&gt;ce matériel&lt;/a&gt; est peu coûteux et a les capacités optimales pour avoir un nœud LN efficace. Veillez à acquérir un pack contenant le Raspberry Pi, l&amp;rsquo;alimentation secteur et une carte SSD. Ces éléments sont compris dans le pack officiel ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un disque dur SSD de 500go ou plus&lt;/strong&gt; : vous devrez télécharger la blockchain de Bitcoin qui fait plus de 200 giga octects. Je recommande un disque dur SSD (électronique) à préférer au disque dur mécanique qui a une moins bonne tolérance à la panne. J&amp;rsquo;ai personnellement un disque dur mécanique ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un écran port HDMI&lt;/strong&gt; : ce sera nécessaire pour faire les premières configurations ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un clavier USB&lt;/strong&gt; : ce sera également nécessaire pour faire les premières configurations ;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un câble RJ45&lt;/strong&gt; : ce sera pour connecter votre Raspberry Pi à Internet. Il est possible d&amp;rsquo;avoir une connexion wifi en y connectant une antenne ou un dongle. Cependant je déconseille cette approche pour des raisons de sécurité et également pour éviter les contraintes d&amp;rsquo;installation de drivers pas toujours disponibles sur les distributions Linux ;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installer-raspian-stretch-lite&#34;&gt;Installer Raspian Stretch Lite&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Cette étape est optionnelle mais recommandée.&lt;/em&gt;&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Configurer son nœud Bitcoin Lightning Network</title>
+        <link>http://localhost:1313/blog/configurer-un-noeud-lightning-network/</link>
+        <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/configurer-un-noeud-lightning-network/</guid>
+        <description>&lt;p&gt;&lt;em&gt;Notez que tout ce qui va suivre devra se faire avec l&amp;rsquo;utilisateur administrateur. Pour s&amp;rsquo;y connecter tapez une fois &lt;code&gt;su root&lt;/code&gt; puis tapez son mot de passe.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fixer-ladresse-ip-locale-du-nœud&#34;&gt;Fixer l&amp;rsquo;adresse IP locale du nœud&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Ce qui suit s&amp;rsquo;applique qu&amp;rsquo;aux connexions réseau filaire et non Wifi&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Votre nœud possède une adresse IP locale afin d&amp;rsquo;être accéssible dans votre réseau, c&amp;rsquo;est d&amp;rsquo;ailleurs grâce à cette dernière que vous pouvez y accéder avec SSH. Cependant il est fort probable que son adressage se fasse dynamiquement par défaut, par conséquent l&amp;rsquo;adresse de votre Raspberry pourrait changer. Il est préférable d&amp;rsquo;éviter cette inconvenance alors on va forcer une adresse IP statique.&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

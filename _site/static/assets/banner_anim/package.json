@@ -1,0 +1,15 @@
+{
+  "name": "rustshad",
+  "collaborators": [
+    "Slals <jonathan@blocs.fr>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rustshad_bg.wasm",
+    "rustshad.js",
+    "rustshad.d.ts"
+  ],
+  "module": "rustshad.js",
+  "types": "rustshad.d.ts",
+  "sideEffects": false
+}
