@@ -68,3 +68,7 @@ $light-nav-icon-color: {{ .Site.Data.color.light_nav_icon_color }};
 #root {
     overflow-x: hidden;
 }
+
+.home__landing--txt {
+    mix-blend-mode: difference;
+}
