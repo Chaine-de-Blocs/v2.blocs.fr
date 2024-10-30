@@ -13,9 +13,9 @@
         <div class="home__landing--txt">
           {{ if .title }}
             {{ range .title }}
-              <div class="title" style="{{ with $landing.titleColor }}color:{{ . }}{{ end }};">
+              <h1 class="title" style="{{ with $landing.titleColor }}color:{{ . }}{{ end }};">
                 {{ . }}
-              </div>
+              </h1>
             {{ end }}
           {{ end }}
             {{ if .spaceBetweenTitleText }}
@@ -23,9 +23,9 @@
             {{ end }}
           {{ if .text }}
             {{ range .text }}
-              <div class="text" style="{{ with $landing.textColor }}color:{{ . }}{{ end }};">
+              <h2 class="text" style="{{ with $landing.textColor }}color:{{ . }}{{ end }};">
                 {{ . }}
-              </div>
+              </h2>
             {{ end }}
           {{ end }}
 
@@ -41,9 +41,9 @@
         <div class="home__landing--txt">
           {{ if .title }}
             {{ range .title }}
-            <div class="title" style="{{ with $landing.titleColor }}color:{{ . }}{{ end }};">
+            <h1 class="title" style="{{ with $landing.titleColor }}color:{{ . }}{{ end }};">
               {{ . }}
-            </div>
+            </h1>
             {{ end }}
           {{ end }}
             {{ if .spaceBetweenTitleText }}
@@ -51,9 +51,9 @@
             {{ end }}
           {{ if .text }}
             {{ range .text }}
-              <div class="text" style="{{ with $landing.textColor }}color:{{ . }}{{ end }};">
+              <h2 class="text" style="{{ with $landing.textColor }}color:{{ . }}{{ end }};">
                 {{ . }}
-              </div>
+              </h2>
             {{ end }}
           {{ end }}
         </div>
