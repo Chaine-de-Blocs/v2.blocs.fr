@@ -9,7 +9,8 @@ hasCJKLanguage = false
 copyright = "&copy;{year} blocs.fr"
 timeout = 10000
 enableEmoji = true
-paginate = 7
+[pagination]
+  pagerSize = 7
 rssLimit = 100
 
 googleAnalytics = ""
