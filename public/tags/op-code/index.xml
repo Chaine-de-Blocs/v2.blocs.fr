@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Op Code on Blocs.fr</title>
-    <link>https://blocs.fr/tags/op-code/</link>
+    <link>http://localhost:1313/tags/op-code/</link>
     <description>Recent content in Op Code on Blocs.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <copyright>&amp;copy;{year} blocs.fr</copyright>
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://blocs.fr/tags/op-code/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/op-code/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Bitcoin SCRIPT en vidéo</title>
-        <link>https://blocs.fr/blog/bitcoin-script/</link>
+        <link>http://localhost:1313/blog/bitcoin-script/</link>
         <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blocs.fr/blog/bitcoin-script/</guid>
+        <guid>http://localhost:1313/blog/bitcoin-script/</guid>
         <description>&lt;p&gt;Lorsque nous payons avec Bitcoin nous signons un contrat. Plus spécifiquement nous produisons une signature cryptographique pour un programme qui fait office de contrat : c&amp;rsquo;est ce qui a été nommé &lt;a href=&#34;https://nakamotoinstitute.org/formalizing-securing-relationships/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Contrat Intelligent&amp;rdquo;&lt;/a&gt; par &lt;a href=&#34;http://unenumerated.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Nick Szabo&lt;/a&gt; en 1997, 11 ans avant que le concept Bitcoin émerge.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;idée principielle du contrat intelligent tend à répondre à trois qualités fondamentales d&amp;rsquo;un contrat &lt;em&gt;(ce que l&amp;rsquo;on a pour habitude de signer avec notre plus belle esquisse)&lt;/em&gt; par l&amp;rsquo;usage de solutions digitales :&lt;/p&gt;</description>
       </item>
