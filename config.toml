@@ -10,7 +10,8 @@ hasCJKLanguage = false # Set `true` for Chinese/Japanese/Korean languages.
 copyright = "©{year} blocs.fr" # copyright symbol: $copy; current year: {year}
 timeout = 10000
 enableEmoji = true
-paginate = 4 # Number of items per page in paginated lists.
+[pagination]
+  pagerSize = 4
 rssLimit = 100
 
 [markup]
