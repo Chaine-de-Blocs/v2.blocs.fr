@@ -41,7 +41,7 @@ Le bâton de pèlerin à la paume, l'aventure a commencé avec une exploration d
 
 > Littéralement : l'apport de Lovable a été un échec. En l'état, ces solutions d'agents IA sont bien pour l'ébauche, mais la qualité pour de la production est discutable.
 
-C'est à ce moment-là que le "Vibe Coding" a véritablement pris son envol. J'ai intégré **Cursor**, un éditeur de code conçu pour l'IA, en le couplant avec la puissance de **GPT-4.1o** et de **Claude 3.7**. Cette combinaison s'est avérée être un catalyseur de productivité extraordinaire.
+C'est à ce moment-là que le "Vibe Coding" a véritablement pris son envol. J'ai intégré **Cursor**, un éditeur de code conçu pour l'IA, en le couplant avec la puissance de **GPT-4.1o** et de **Claude Sonnet 3.7**. Cette combinaison s'est avérée être un catalyseur de productivité extraordinaire.
 
 > J'ai évalué le gain en temps à x3. Pas de gain en qualité cependant, au contraire la qualité produite par les LLMs implique de passer soi-même du temps d'ajustement.
 
