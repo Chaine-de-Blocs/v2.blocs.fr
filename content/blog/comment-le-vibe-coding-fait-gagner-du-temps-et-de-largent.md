@@ -13,7 +13,7 @@ Le monde du développement logiciel est en perpétuelle ébullition, cherchant s
 
 Comment une telle compression temporelle est-elle possible ? La réponse tient en deux lettres : __IA__. Plus précisément, l'utilisation judicieuse et intensive des Large Language Models (LLMs) au cœur du processus de développement.
 
-> Il ne s'agira pas ici de faire l'exégèse d'une chose nébuleuse d'auto-régression linéaire sur le mot. Mais d'un retour concret, réel et le plus objectif possible, permis par une expertise de plus de 10 ans dans l'ingénierie logicielle, allant de la création de protocoles au développement de sites / applications.
+> Il ne s'agira pas ici de faire l'exégèse d'une chose nébuleuse d'auto-régression linéaire sur le mot. Mais d'un retour concret, réel et le plus objectif possible, permis par une expertise de plus de 10 ans dans l'ingénierie logicielle, allant de la création de protocoles à la création de produits logiciels complets (app, API, infrastructure, interface).
 
 ## Avant toute chose : qu'est-ce que donc le Vibe Coding ?
 
