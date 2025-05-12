@@ -37,7 +37,7 @@ Traditionnellement, un tel projet mobiliserait une équipe pluridisciplinaire : 
 
 ##  Mon voyage initiatique dans le Vibe Coding
 
-Le bâton de pèlerin à la paume, l'aventure a commencé avec une exploration des outils d'assistance au développement basés sur l'IA. J'ai d'abord jeté mon dévolu sur **Lovable**. Cet outil m'a permis de mettre en place une première ébauche du frontend. Cependant, j'ai vite constaté que le projet généré n'était pas à jour avec les dernières versions et les meilleures pratiques de `NextJS`. Plutôt que de m'embourber dans des mises à niveau complexes, j'ai pris la décision de repartir d'une base saine en utilisant le CLI standard `create-next-app`.
+Le bâton de pèlerin à la paume, l'aventure a commencé avec une exploration des outils d'assistance au développement basés sur l'IA. J'ai d'abord jeté mon dévolu sur **Lovable**. Cet outil m'a permis de mettre en place une première ébauche du frontend. Cependant, j'ai vite constaté que le projet généré n'était pas à jour avec les dernières versions et les meilleures pratiques de `NextJS`. Plutôt que de m'embourber dans des mises à niveau laborieuses, j'ai pris la décision de repartir d'une base saine en utilisant le CLI standard `create-next-app`.
 
 > Littéralement : l'apport de Lovable a été un échec. En l'état, ces solutions d'agents IA sont bien pour l'ébauche, mais la qualité pour de la production est discutable.
 
@@ -203,9 +203,9 @@ Le fait que cette complexité n’est pas seulement un problème pour les dével
 
 ## C'est une symphonie homme-machine
 
-Et chef d'orchestre nous pourrions devenir... L'aventure [serjaq.fr](https://serjaq.fr) est pour moi la preuve tangible que le "Vibe Coding" n'est pas un simple buzzword, mais une véritable révolution dans notre manière de concevoir et de construire des logiciels. La capacité à matérialiser une idée complexe en un temps record ouvre des perspectives incroyables, notamment pour les startups, les PME ou les développeurs indépendants qui souhaitent tester rapidement des concepts sans mobiliser des ressources financières et humaines colossales.
+Et chef d'orchestre nous pourrions devenir... L'aventure [serjaq.fr](https://serjaq.fr) est pour moi la preuve tangible que le "Vibe Coding" n'est pas un simple buzzword, mais une véritable révolution dans notre manière de concevoir et de construire des logiciels. La capacité à matérialiser une idée complexe aussi rapidement ouvre de nouvelles perspectives, notamment pour les startups, les PME ou les développeurs indépendants qui souhaitent tester rapidement des concepts sans mobiliser des ressources financières et humaines colossales.
 
-Néanmoins, cette nouvelle ère du développement logiciel exige une vigilance accrue et une solide expertise technique. Les LLMs sont des partenaires de code surpuissants, mais ils nécessitent un pilote expérimenté pour naviguer entre les promesses d'une productivité décuplée et les récifs des hallucinations et de la dette technique.
+Néanmoins, cette nouvelle ère du développement logiciel exige une vigilance accrue et une solide expertise technique. Les LLMs sont des partenaires de code surpuissants, mais ils nécessitent un pilote expérimenté pour naviguer entre les promesses d'une productivité décuplée et les récifs des hallucinations et de la dette technique. J'évoquerai ces différents sujets dans des articles à venir.
 
 Le futur du software engineering passera sans doute par une collaboration de plus en plus étroite entre l'intelligence humaine et l'intelligence artificielle. Apprendre à "viber" avec ces nouveaux outils, c'est se donner les moyens de construire plus vite, plus intelligemment, et peut-être même, avec plus de plaisir et humilité.
 
