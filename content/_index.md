@@ -22,6 +22,10 @@ footer:
       links:
         - title: Blog
           link: blog
+        - title: Masteria
+          link: https://masteria.co
+        - title: Mediatoria
+          link: https://mediatoria.org
     - title: Réseaux
       links:
         - title: Github
