@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startup on Blocs.fr</title>
+    <link>http://localhost:1313/tags/startup/</link>
+    <description>Recent content in Startup on Blocs.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy;{year} blocs.fr</copyright>
+    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>L&#39;Ingénieur Logiciel face aux LLMs : Au-delà de l&#39;Ego, la Révolution de la Productivité</title>
+        <link>http://localhost:1313/blog/new/</link>
+        <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/new/</guid>
+        <description>&lt;p&gt;Le monde de l&amp;rsquo;ingénierie logicielle est en pleine ébullition avec l&amp;rsquo;avènement des Large Language Models (LLMs) comme assistants de code. Comme toute évolution technologique majeure, celle-ci divise et crée des réactions passionnées, souvent irrationnelles. Cet article propose de dépasser le débat stérile entre la peur de rater le train (FOMO) et le déni pur(isme) et simple pour analyser de manière pragmatique pourquoi et comment les LLMs sont, dès aujourd&amp;rsquo;hui, un levier de productivité exceptionnel et comment ils redéfinissent le métier d&amp;rsquo;ingénieur logiciel, sans pour autant le remplacer.&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
