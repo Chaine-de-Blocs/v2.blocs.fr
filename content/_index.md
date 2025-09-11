@@ -26,6 +26,8 @@ footer:
           link: https://masteria.co
         - title: Mediatoria
           link: https://mediatoria.org
+        - title: A2H
+          link: https://ai2h.tech
     - title: Réseaux
       links:
         - title: Github
